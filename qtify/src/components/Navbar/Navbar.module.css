@@ -10,5 +10,7 @@
 
 .logo {
   margin-right: 25px;
+  display: flex;
+  margin: 14px;
   cursor: pointer;
 }

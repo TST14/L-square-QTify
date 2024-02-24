@@ -7,7 +7,9 @@ import Logo from "../Logo/Logo";
 function Navbar() {
   return (
     <nav className={styles.Navbar}>
-      <Logo />
+      <div className={styles.logoDiv}>
+        <Logo />
+      </div>
       <div className={styles.logo}></div>
       <SearchBar />
       <Button />
