@@ -7,3 +7,8 @@
   height: 74px;
   padding: 0px 32px;
 }
+
+.logo {
+  margin-right: 25px;
+  cursor: pointer;
+}
