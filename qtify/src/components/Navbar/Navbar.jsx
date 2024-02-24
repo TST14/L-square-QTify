@@ -7,11 +7,10 @@ import Logo from "../Logo/Logo";
 function Navbar() {
   return (
     <nav className={styles.Navbar}>
-      <div className={styles.logoDiv}>
+      <div className={styles.logo}>
         <Logo />
       </div>
-      <div className={styles.logo}></div>
-      <SearchBar />
+      <SearchBar search={"Search a song of your choice"} />
       <Button />
     </nav>
   );
