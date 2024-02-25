@@ -1,8 +1,8 @@
-.rightNavigation{
+.leftNavigation {
     position: absolute;
-    right: 10px;
+    left: 0px;
     top: 40%;
     transform: translateY(-50%);
     z-index: 10;
-    color: var(--color-white);
+    cursor: pointer;
 }
